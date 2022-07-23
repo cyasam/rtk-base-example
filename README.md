@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+Projenin React & Redux ile geliştirilmiş olması beklenmektedir.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proje, açılış olarak kullanıcıdan bir API key almalı ve bu API Key tarayıcı kapatılana veya tab kapatılana kadar tekrar sorulmamalı, sayfa yenilense de tekrar istenmemelidir.
 
-## Available Scripts
+Eğer yeni tab açılır veya tarayıcı kapatılıp açılırsa tekrar API Key istenmelidir.
 
-In the project directory, you can run:
+API olarak https://openweathermap.org/current kullanılmalıdır. API Key istenirse README'de paylaşılabilir.
 
-### `npm start`
+API Key alındıktan sonraki sayfada Türkiye illerinin seçimine göre, seçilen il özelinde anlık hava durum bilgileri ekranda gösterilmelidir.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+İsteğe göre, il seçimi yerine Türkiye haritası çıkarılarak kullanıcının seçim yapması sağlatılabilir. Yine isteğe göre, il seçimi yerine bu harita üzerinden belirli bir alan da seçtirilebilir.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Yanlış API Key veya bağlantı sorunları sebebiyle gösterimlerin yapılamama durumları karşılanmalı ve kullanıcıyı düzgün şekilde bilgilendirmelidir.
 
-### `npm test`
+İsteğe göre ek özellikler eklenebilir.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tasarım olarak Bootstrap üzerinden opensource bir tema giydirilebilir veya kendi tasarımınız uygulanabilir.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+API KEY = 5c77766a764f125d0e001e5d9b05d9ca
